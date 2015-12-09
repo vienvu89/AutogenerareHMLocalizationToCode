@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CreateaLocalization" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,73 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0c-fl-4bC">
+                                <rect key="frame" x="199" y="28" width="202" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LdL-eN-cCw"/>
+                                    <constraint firstAttribute="width" constant="202" id="sgO-zA-ZW8"/>
+                                </constraints>
+                                <state key="normal" title="Eng"/>
+                                <connections>
+                                    <action selector="buttonEngIsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="drf-JN-gKF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbS-Rh-F2h">
+                                <rect key="frame" x="199" y="101" width="202" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gfb-hV-ktR"/>
+                                    <constraint firstAttribute="width" constant="202" id="r6k-IN-1kR"/>
+                                </constraints>
+                                <state key="normal" title="TraChin"/>
+                                <connections>
+                                    <action selector="buttonTraChinIsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Umx-Yv-mnn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-ZB-YW4">
+                                <rect key="frame" x="199" y="173" width="202" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="3vU-c2-YKp"/>
+                                    <constraint firstAttribute="height" constant="30" id="RMb-se-wsA"/>
+                                </constraints>
+                                <state key="normal" title="SimChin"/>
+                                <connections>
+                                    <action selector="buttonSimIsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hk0-aq-Z0M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-LD-hLD">
+                                <rect key="frame" x="199" y="251" width="202" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="T16-3P-vwD"/>
+                                    <constraint firstAttribute="height" constant="30" id="e6d-jj-2ad"/>
+                                </constraints>
+                                <state key="normal" title="File"/>
+                                <connections>
+                                    <action selector="buttonFileIsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uJ-CS-u9Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dd0-ZB-YW4" firstAttribute="top" secondItem="fbS-Rh-F2h" secondAttribute="bottom" constant="42" id="0oZ-pZ-JBq"/>
+                            <constraint firstItem="fbS-Rh-F2h" firstAttribute="top" secondItem="b0c-fl-4bC" secondAttribute="bottom" constant="43" id="5q1-a5-gzN"/>
+                            <constraint firstItem="0GU-LD-hLD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5vs-VZ-kKV"/>
+                            <constraint firstItem="dd0-ZB-YW4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JFA-C2-kkp"/>
+                            <constraint firstItem="b0c-fl-4bC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OC7-4D-dzA"/>
+                            <constraint firstItem="fbS-Rh-F2h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VW8-EU-6cF"/>
+                            <constraint firstItem="b0c-fl-4bC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XoH-CB-Huf"/>
+                            <constraint firstItem="0GU-LD-hLD" firstAttribute="top" secondItem="dd0-ZB-YW4" secondAttribute="bottom" constant="48" id="uvJ-a9-ZsE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="361"/>
         </scene>
     </scenes>
 </document>

@@ -14,6 +14,11 @@
 		FBBC0F651BC668280009918D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F631BC668280009918D /* LaunchScreen.storyboard */; };
 		FBBC0F701BC668290009918D /* CreateaLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC0F6F1BC668290009918D /* CreateaLocalizationTests.swift */; };
 		FBBC0F7B1BC668290009918D /* CreateaLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC0F7A1BC668290009918D /* CreateaLocalizationUITests.swift */; };
+		FBBC0F911BC66A5A0009918D /* trachi.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F901BC66A5A0009918D /* trachi.txt */; settings = {ASSET_TAGS = (); }; };
+		FBBC0F931BC66A610009918D /* eng.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F921BC66A610009918D /* eng.txt */; settings = {ASSET_TAGS = (); }; };
+		FBBC0F951BC66A6C0009918D /* key.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F941BC66A6C0009918D /* key.txt */; settings = {ASSET_TAGS = (); }; };
+		FBBC0F971BC66A770009918D /* simchi.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F961BC66A770009918D /* simchi.txt */; settings = {ASSET_TAGS = (); }; };
+		FBBC0F991BC678CB0009918D /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBBC0F981BC678CB0009918D /* output.txt */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FBBC0F761BC668290009918D /* CreateaLocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateaLocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBC0F7A1BC668290009918D /* CreateaLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateaLocalizationUITests.swift; sourceTree = "<group>"; };
 		FBBC0F7C1BC668290009918D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBC0F901BC66A5A0009918D /* trachi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trachi.txt; sourceTree = "<group>"; };
+		FBBC0F921BC66A610009918D /* eng.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eng.txt; sourceTree = "<group>"; };
+		FBBC0F941BC66A6C0009918D /* key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.txt; sourceTree = "<group>"; };
+		FBBC0F961BC66A770009918D /* simchi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simchi.txt; sourceTree = "<group>"; };
+		FBBC0F981BC678CB0009918D /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		FBBC0F591BC668280009918D /* CreateaLocalization */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC0F941BC66A6C0009918D /* key.txt */,
+				FBBC0F921BC66A610009918D /* eng.txt */,
+				FBBC0F901BC66A5A0009918D /* trachi.txt */,
+				FBBC0F961BC66A770009918D /* simchi.txt */,
+				FBBC0F981BC678CB0009918D /* output.txt */,
 				FBBC0F5A1BC668280009918D /* AppDelegate.swift */,
 				FBBC0F5C1BC668280009918D /* ViewController.swift */,
 				FBBC0F5E1BC668280009918D /* Main.storyboard */,
@@ -228,9 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBC0F951BC66A6C0009918D /* key.txt in Resources */,
+				FBBC0F991BC678CB0009918D /* output.txt in Resources */,
+				FBBC0F931BC66A610009918D /* eng.txt in Resources */,
+				FBBC0F971BC66A770009918D /* simchi.txt in Resources */,
 				FBBC0F651BC668280009918D /* LaunchScreen.storyboard in Resources */,
 				FBBC0F621BC668280009918D /* Assets.xcassets in Resources */,
 				FBBC0F601BC668280009918D /* Main.storyboard in Resources */,
+				FBBC0F911BC66A5A0009918D /* trachi.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

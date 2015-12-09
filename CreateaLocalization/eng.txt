@@ -1,0 +1,8 @@
+Delete
+write A message
+Camera
+Photo
+Video
+Voicecall
+Videocall
+Send A gift
